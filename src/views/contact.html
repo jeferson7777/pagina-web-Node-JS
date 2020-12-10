@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title> 
+    <%= title %>
+  </title>
+<%-include('partials/head.html') %>
+</head>
+<body>
+<%-include('partials/navigation.html') %>
+<h3>Esta pagina es la de CONTACTO donde tambien podemos usar -ejs- <br> con estos comando  < % = %  ></h3>  
+<div class="container">
+  <header class="burbuja">
+    <div class="burbujas">
+      <img src="/img/burbujas.jpg"  style="width:500px;height:600px;" alt="burbuja">
+    </div>
+  </header>
+</div>
+
+<!-- section one -->
+<div class="container-fluid" id="about">
+  <div class="row bg-dark text-white p-5 text-center">
+    <div class="col-sm-6">
+      <i class="fab fa-youtube fa-10x"></i>
+    </div>
+    <div class="col-sm-6">
+      <h3>The most subscribed Youtuber</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente pariatur necessitatibus, aliquam, dignissimos quod numquam minima provident voluptates in unde sint sed! Fugiat molestiae accusantium, nobis dignissimos odio nulla laborum!
+      </p>
+    </div>
+  </div>
+</div>
+
+<%-include('partials/footer.html') %>
+
+
+
+
+</body>
+</html>
