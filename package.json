@@ -1,10 +1,11 @@
 {
-  "name": "pagina-web-Node-JS",
+  "name": "first",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src",
+    "dev": "nodemon src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/jeferson7777/pagina-web-Node-JS/issues"
   },
-  "homepage": "https://github.com/jeferson7777/pagina-web-Node-JS#readme"
+  "homepage": "https://github.com/jeferson7777/pagina-web-Node-JS#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
